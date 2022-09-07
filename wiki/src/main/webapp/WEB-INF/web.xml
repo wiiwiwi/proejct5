@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+
+	<servlet>
+		<servlet-name>BoardController</servlet-name>
+		<servlet-class>mvc.controller.BoardController</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>BoardController</servlet-name>
+		<url-pattern>*.do</url-pattern>
+	</servlet-mapping>
+	
+		<servlet>
+		<servlet-name>WikiController</servlet-name>
+		<servlet-class>mvc.controller.WikiController</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>WikiController</servlet-name>
+		<url-pattern>*.wiki</url-pattern>
+	</servlet-mapping>
+ 		
+ 		
+</web-app>
