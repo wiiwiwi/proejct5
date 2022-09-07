@@ -22,8 +22,9 @@
 			</ul>	
 	    </div> --%>
 	    
-    <section class="container bd-content" role="main">
-		<article class="pt-5">
+    <section class="container bd-content border border-5" role="main">
+    	<div class="pt-2"><a class="btn btn-primary" href="#">편집</a></div>
+		<article class="pt-2">
 			
 			<div class ="display-4">환영합니다.</div>
 			<hr>
